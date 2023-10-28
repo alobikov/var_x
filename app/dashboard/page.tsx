@@ -32,7 +32,7 @@ const page = (props: Props) => {
             {/* list all notes here */}
             {/* TODO conditionally render here */}
             <div className="text-center">
-                <h2 className="text-xl text-gray-500">You have no notes yet..</h2>
+                <h2 className="text-xl text-gray-500">You have no notes yet</h2>
             </div>
             <div className="grid sm:grid-cols-3 md:grid cols-5 grid-cols-1">
                 <CreateNoteDialog/>
